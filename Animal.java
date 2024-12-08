@@ -10,3 +10,9 @@ class Dog extends Animal{
         System.out.println("Dogs can bark");
     }
 }
+
+// Animal and interference files are interconnected
+
+// Animal file contail the class and inheritance file contain the objects
+
+// inheritance / pakages and access specifier concepts are used
