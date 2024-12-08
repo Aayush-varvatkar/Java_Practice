@@ -23,7 +23,8 @@ class Studentinfo{
 
 public class Constructor_use {
 	public static void main(String[] args) {
-		Studentinfo S1 = new Studentinfo();
+		// Studentinfo S1 = new Studentinfo();
+		// S1.display();
 
 		Studentinfo S2 = new Studentinfo("Shivam", 10, 33);
 		S2.display();
