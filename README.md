@@ -33,3 +33,8 @@ In this repository, there's a detailed java language course
    differentiate between instance variables and method/constructor parameters if they have the same name.
 2. Invoke Superclass Methods:
    Used to call a method from the superclass / 'another class' that is overridden in the subclass. / or constructor
+   
+
+> Method: 
+1. Must always be declared inside a class
+2. They require object of the class to be invoked    (Except when declare with static keyword)
