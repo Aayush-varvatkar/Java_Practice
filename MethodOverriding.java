@@ -1,13 +1,13 @@
 package Java_Practice;
 
 
-class Animal {
+class Animal3 {
     void eat(){
         System.out.println("Animal eat's food");
     }
 }
 
-class Horse extends Animal{
+class Horse extends Animal3{
     void eat(){
         System.out.println("Horse eats grass");
     }
@@ -15,8 +15,9 @@ class Horse extends Animal{
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        Animal A1 = new Animal();
-        Animal A2 = new Horse();
+        Animal3 A1 = new Animal3();
+        Animal3 A2 = new Horse();
+
         A1.eat();
         A2.eat();
     }
