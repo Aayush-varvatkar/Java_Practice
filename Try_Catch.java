@@ -10,10 +10,13 @@ public class Try_Catch {
 
        try{
             k = i/j;
-            System.out.println("Output is" + k);
+            System.out.println("Output is" + k);    // if there is an exception, the remaining code will not be executed
        }
        catch(Exception e){
         System.out.println("Error occured");
+       }
+       finally{        // finally block will always execute even if there is an exception or not
+        sc.close();
        }
     }
 }
