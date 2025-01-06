@@ -1,0 +1,28 @@
+package Java_Practice;
+import java.util.TreeSet;
+
+public class Tree_Set {
+    public static void main(String[] args) {
+        TreeSet<Integer> Val = new TreeSet<>();
+
+        Val.add(88);         // TreeSet sorts the elements in ascending order   ( in sorted order )
+        Val.add(99);
+        Val.add(77);
+        Val.add(66);
+        Val.add(55);
+
+        System.out.println(Val);
+
+        Val.remove(88);
+        System.out.println(Val);
+
+        System.out.println(Val.contains(77));
+
+        System.out.println(Val.isEmpty());
+
+        System.out.println(Val.size());
+
+        // Val.clear();
+        // System.out.println(Val);
+    }
+}
