@@ -16,9 +16,9 @@ public class Thread_Constructor {
         t1.start();
         t2.start();
 
-        System.out.println("I'D of this Thread is:" + t1.getId());
+        // System.out.println("I'D of this Thread is:" + t1.getId());
         System.out.println("Name of this Thread is:" + t1.getName());
-        System.out.println("I'D of this Thread is:" + t2.getId());
+        // System.out.println("I'D of this Thread is:" + t2.getId());
         System.out.println("Name of this Thread is:" + t2.getName());
     }
 }
