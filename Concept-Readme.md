@@ -39,3 +39,11 @@
 
 
 > Generic:   feature that allows you to write code that can handle any type of object in a type-safe manner.
+
+> Threads :
+        - Threads are sub-processes that allow a program to perform multiple tasks simultaneously, enabling concurrent execution.
+        - Executes multiple tasks concurrently.
+
+        - There are two primary ways to create a thread:
+            1.  By extending the Thread class.
+            2.  By implementing the Runnable interface.
