@@ -47,3 +47,8 @@
         - There are two primary ways to create a thread:
             1.  By extending the Thread class.
             2.  By implementing the Runnable interface.
+
+   > Thread Priority:   Thread Priority determines the relative importance of a thread in relation to other threads.
+         MIN_PRIORITY = 1 (Lowest priority)
+         NORM_PRIORITY = 5 (Default priority)
+         MAX_PRIORITY = 10 (Highest priority)
